@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+/* body{
+  background-image: url("./assets/garden2.jpg");
+  background-size: cover;
+} */
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: darkgreen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  border: 1px solid red;
+  width: 100%;
+  height: auto;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position:absolute;
+  bottom:0;
+  left: 0;
+  top:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.treeDiv{
+  width: 63%;
+  height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;  
+}
+
+.Tree{
+  width: 80%;
+  height: auto;
+  
+}
+
+#tree1{
+  width: 80%;
+  position: relative;
+  left: 0.6rem;
+}
+#tree2{
+  width: 80%;
+  position: inherit;
+  left: 1.25rem;
+}
+button{
+  width: 12vh;
+  height: 4vh;
+  background-color: white;
+  font-size: 1.5vh;
+  position: absolute;
+  left: 50%;
+  right:40%;
+  bottom: 20%;
+  top:77%;  
+}
+
+.basketDiv{
+  width: 25%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  position: absolute;
+  right: 6vh;  
+}  
+#basket{
+  width: 40%;
+  z-index:1;  
+} 
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Elmaların ağaçtan düşmeden önceki pozisyonu*/
+#apple1{
+  width: 2%;
+  position : absolute;
+  top: 45%;
+  bottom: 55%;
+  left: 15%;
+  right: 80%;  
 }
+#apple2{
+  width: 2%;
+  position : absolute;
+  top: 44%;
+  bottom: 56%;
+  left: 20%;
+  right: 80%
+}
+#apple3{
+  width: 2%;
+  position : absolute;
+  top: 43%;
+  bottom: 57%;
+  left: 25%;
+  right: 75%
+}
+#apple4{
+  width: 2%;
+  position : absolute;
+  top: 46%;
+  bottom: 54%;
+  left: 28%;
+  right: 72%
+}
+#apple5{
+  width: 2%;
+  position : absolute;
+  top: 42%;
+  bottom: 58%;
+  left: 32%;
+  right: 68%
+}
+ #apple6{
+  width: 2%;
+  position : absolute;
+  top: 45%;
+  bottom: 60%;
+  left: 40%;
+  right: 60%;}
+
+
+  /* Elmaların Yere düştükten sonraki pozisyonu */
+  #apple11{
+    width: 2%;
+    position : absolute;
+    top: 75%;
+    bottom: 25%;
+    left: 15%;
+    right: 85%
+  }  
+  #apple33{
+    width: 2%;
+    position : absolute;
+    top: 75%;
+    bottom: 25%;
+    left: 25%;
+    right: 75%
+  }
+  #apple55{
+    width: 2%;
+    position : absolute;
+    top: 75%;
+    bottom: 25%;
+    left: 38%;
+    right: 62%;  
+  }
+
+  /* Elmaların Sepete konduktan sonraki pozisyonu */
+  #apple111{
+    width: 3%;
+    position : absolute;
+    top: 48%;
+    bottom: 50%;
+    left: 84%;
+    right: 65%;
+    z-index:2; 
+  }   
+  #apple333{
+    width: 3%;
+    position : absolute;
+    top: 48%;
+    bottom: 50%;
+    left: 82%;
+    right: 65%;
+    z-index:2;
+  }
+  #apple555{
+    width: 3%;
+    position : absolute;
+    top: 48%;
+    bottom: 50%;
+    left: 81%;
+    right: 65%;
+    z-index:2;  
+  }
+
+
+  @media screen and (max-width: 600px) {    
+      #apple111{
+        width: 3%;
+        position : absolute;
+        top: 48%;
+        bottom: 50%;
+        left: 82.3%;
+        right: 65%;
+        z-index:2; 
+      }   
+      #apple333{
+        width: 3%;
+        position : absolute;
+        top: 49%;
+        bottom: 50%;
+        left: 81.5%;
+        right: 65%;
+        z-index:2;
+      }
+      #apple555{
+        width: 3%;
+        position : absolute;
+        top: 49%;
+        bottom: 50%;
+        left: 80.2%;
+        right: 65%;
+        z-index:2;  
+      }      
+          
+  }
