@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Protein_Case/static/css/main.de8bff9e.chunk.css",
+    "main.js": "/Protein_Case/static/js/main.ff21ead2.chunk.js",
+    "main.js.map": "/Protein_Case/static/js/main.ff21ead2.chunk.js.map",
+    "runtime-main.js": "/Protein_Case/static/js/runtime-main.89e284ed.js",
+    "runtime-main.js.map": "/Protein_Case/static/js/runtime-main.89e284ed.js.map",
+    "static/js/2.ea5fc9b2.chunk.js": "/Protein_Case/static/js/2.ea5fc9b2.chunk.js",
+    "static/js/2.ea5fc9b2.chunk.js.map": "/Protein_Case/static/js/2.ea5fc9b2.chunk.js.map",
+    "static/js/3.3c64912f.chunk.js": "/Protein_Case/static/js/3.3c64912f.chunk.js",
+    "static/js/3.3c64912f.chunk.js.map": "/Protein_Case/static/js/3.3c64912f.chunk.js.map",
+    "index.html": "/Protein_Case/index.html",
+    "static/css/main.de8bff9e.chunk.css.map": "/Protein_Case/static/css/main.de8bff9e.chunk.css.map",
+    "static/js/2.ea5fc9b2.chunk.js.LICENSE.txt": "/Protein_Case/static/js/2.ea5fc9b2.chunk.js.LICENSE.txt",
+    "static/media/apple.faa774a6.png": "/Protein_Case/static/media/apple.faa774a6.png",
+    "static/media/basket.6770bd41.png": "/Protein_Case/static/media/basket.6770bd41.png",
+    "static/media/tree.d29c5acb.png": "/Protein_Case/static/media/tree.d29c5acb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89e284ed.js",
+    "static/js/2.ea5fc9b2.chunk.js",
+    "static/css/main.de8bff9e.chunk.css",
+    "static/js/main.ff21ead2.chunk.js"
+  ]
+}
