@@ -8,4 +8,6 @@ function reducer (state, action){
             return state
     }
 }
+
+// Buton'a tıklandığında state'i true'ya çevirecek olan reducer fonksiyonunu hazırladık.
 export default reducer;

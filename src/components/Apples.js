@@ -6,15 +6,17 @@ import {useSelector} from "react-redux";
 
 const Apples = () => {
     
-    const value = useSelector((state)=>state.value)
+    const value = useSelector((state)=>state.value) //store ile gönderdiğimiz propsu destruct ediyoruz.
+
+//Ağaç sallandıktan sonra düşecek elma elementlerini DOM manup. ile yakaldık.
     const apple1 = document.querySelector("#apple1")
-    const apple3 = document.querySelector("#apple3")
-    const apple4 = document.querySelector("#apple4")
+    const apple3 = document.querySelector("#apple3")    
     const apple5 = document.querySelector("#apple5")
-    const apple6 = document.querySelector("#apple6")
+    
 
     if(value){
-        
+            //ağaçtan elmaların düşmesi için; store'da yer alan state true'ya dönerse aşağıdaki kodlar çalışacak. (State'in true'ya dönmesi için butona tıklamak gerekli.) Elmaların farklı anlarda düşmesi için setTimeout fonksiyonunu kullandık.
+
             setTimeout(()=>{
                 apple3.setAttribute("id", "apple33")
                 setTimeout(()=>{apple1.setAttribute("id", "apple11")}, 300)
@@ -26,13 +28,8 @@ const Apples = () => {
                 apple1.setAttribute("id", "apple111")
                 apple5.setAttribute("id", "apple555")
                 apple3.setAttribute("id", "apple333")
-                // apple4.setAttribute("id", "apple44")
-                // apple6.setAttribute("id", "apple66")
-                
-            },5000)
-
-
-            
+                                
+            },5000)            
         }
         
     
